@@ -1,0 +1,24 @@
+Instructions to run
+
+1. Download the zip file
+2. Unzip it
+3. Run these commands-
+   
+   --> cd Spam_Instahyre
+   --> pip install -r requirements.txt
+   --> cd spamproject
+   --> python3 manage.py makemigrations
+   --> python3 manage.py migrate
+   
+4. Connect db.sqlite3 file to some GUI db like dbeavor   
+ 
+5. Run these commands to fill the db and to run the server
+   --> python3 manage.py populate_db
+   --> python3 manage.py runserver
+   
+   
+
+   
+   
+   
+   
